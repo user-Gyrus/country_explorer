@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8a2be2;
+  padding-top: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  margin: 0;
+}
+
+.page {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.page_intro_heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.intro_data {
+  color: grey;
+}
+
+.input_data-page {
+  text-align: center;
+  justify-content: center;
+}
+
+.input_data {
+  min-width: 370px;
+  padding: 10px;
+}
+
+button {
+  background-color: #8a2be2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-right: 13px;
+  padding-bottom: 10.5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
