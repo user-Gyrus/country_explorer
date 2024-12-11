@@ -7,7 +7,8 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-h2 {
+h2,
+h3 {
   margin: 0;
 }
 
@@ -49,4 +50,20 @@ button {
   cursor: pointer;
   font-size: 15px;
   font-weight: 600;
+}
+
+.final_output {
+  display: grid;
+  border: 0px solid grey;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: pink;
+}
+
+img {
+  margin-top: 10px;
+  width: 70%;
+  height: 70%;
 }
